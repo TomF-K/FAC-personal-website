@@ -12,12 +12,12 @@ main {
 }
 
 .main__button-colored {
-    background-color: var(--color-secondary);
+    background: var(--gradient-primary);
     color: var(--text-color-tertiary);
 }
 
 .main__button-white {
     background-color: var(--color-primary);
-    color: var(--text-color-secondary);
+    color: var(--gradient-primary);
     border: 2px solid var(--color-secondary);
 }
