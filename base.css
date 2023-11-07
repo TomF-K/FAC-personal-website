@@ -1,0 +1,14 @@
+/*LOOK UP BORDER BOX INCANTATION*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
