@@ -1,4 +1,39 @@
-/*LOOK UP BORDER BOX INCANTATION*/
+/* general styling */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --font-primary: 'Rubik', sans serif;
+    --text-color-primary: 
+}
+
+h1, 
+h2,
+h3,
+p,
+li {
+    font-family: var(--font-primary);
+}
+
+/* text gradient for headings */
+
+h1 {
+background: #370CAD;
+background: linear-gradient(to top right, #370CAD 0%, #13BCCF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* header/nav styling */
 
 ul {
     list-style-type: none;
