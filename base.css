@@ -12,7 +12,11 @@ html {
 
 :root {
     --font-primary: 'Rubik', sans serif;
-    --text-color-primary: 
+    --color-primary: #ffffff;
+    --color-secondary: #370CAD;
+    --text-color-primary: #000000;
+    --text-color-secondary: #370CAD;
+    --text-color-tertiary: #ffffff;
 }
 
 h1, 
@@ -46,4 +50,16 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+.btn {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.btn:hover {
+    opacity: 0.7;
 }
