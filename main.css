@@ -34,7 +34,8 @@ main {
 
 /* Projects section styling */
 
-.projects {
+projects,
+.student__testimonials {
     text-align: left;
     margin: 6rem 2rem;
 }

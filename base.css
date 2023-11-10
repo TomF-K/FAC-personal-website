@@ -34,6 +34,10 @@ li {
     font-family: var(--font-primary);
 }
 
+h1 {
+    padding-top: 2rem;
+}
+
 /* text gradient for headings */
 
 h1 {
