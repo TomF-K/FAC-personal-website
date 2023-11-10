@@ -4,3 +4,8 @@
 
 https://medium.com/@christianjbolus/how-to-make-a-button-with-a-gradient-border-and-gradient-text-in-html-css-7d495656169
 
+4. Media queries for tablet and mobile
+
+5. Education page
+6. Testimonials section
+7. Favicon generator
