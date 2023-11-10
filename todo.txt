@@ -1,0 +1,6 @@
+1. Nav toggle for mobile display
+2. h3 blurb for hero section
+3. button gradient text and border:
+
+https://medium.com/@christianjbolus/how-to-make-a-button-with-a-gradient-border-and-gradient-text-in-html-css-7d495656169
+
