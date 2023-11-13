@@ -9,3 +9,4 @@ https://medium.com/@christianjbolus/how-to-make-a-button-with-a-gradient-border-
 5. Education page
 6. Testimonials section - import from js projects repo/collate BC reviews
 7. Favicon generator
+8. Fix logo background colour in PS
