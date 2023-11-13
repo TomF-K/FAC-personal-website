@@ -34,8 +34,7 @@ main {
 
 /* Projects section styling */
 
-projects,
-.student__testimonials {
+projects {
     text-align: left;
     margin: 6rem 2rem;
 }
@@ -77,4 +76,44 @@ figcaption {
 
 figcaption * {
     margin: 0.5rem;
+}
+
+/* Testimonials styling*/
+
+.testimonials {
+    margin: 6rem 2rem;
+}
+
+.testimonials__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: var(--color-secondary);
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0.5rem;
+    color: var(--text-color-tertiary);
+}
+
+.testimonials__img-container {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#student-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#testimonials__author {
+    flex-basis: 100%;
+    margin: 0.25rem;
+}
+#testimonials__location {
+    flex-basis: 100%;
+    margin: 0.25rem;
 }
