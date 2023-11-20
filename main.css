@@ -34,7 +34,7 @@ main {
 
 /* Projects section styling */
 
-projects {
+.projects {
     text-align: left;
     margin: 6rem 2rem;
 }
@@ -59,7 +59,7 @@ figure {
 }
 
 figure img {
-    max-height: 300px;
+    height: 100%;
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/4;
@@ -131,9 +131,7 @@ figcaption * {
 
 #testimonials__author {
     flex-basis: 100%;
-    margin: 0.25rem;
 }
 #testimonials__location {
     flex-basis: 100%;
-    margin: 0.25rem;
 }
