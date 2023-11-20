@@ -148,3 +148,32 @@ figcaption * {
 #testimonials__location {
     flex-basis: 100%;
 }
+
+/* MUSIC GRID IMG STYLING */
+
+.music__grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 0px;
+    margin: 1rem 2rem;
+}
+
+.music__grid-img img {
+max-width: 50%;
+}
+
+.portrait {
+    grid-row: span 2;
+}
+
+.landscape {
+    grid-column: span 2;
+}
+
+.youtube {
+    grid-column: span 2;
+}
+
+.square {
+}
