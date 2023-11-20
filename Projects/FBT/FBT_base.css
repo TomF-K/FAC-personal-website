@@ -1,0 +1,72 @@
+/* General styling */
+:root {
+    --sans: "Arial", sans serif;
+    --navtext: "Montserrat", sans serif;
+  }
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: var(--sans);
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Header Styling */
+
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    background-image: url("../img/FBT_header_img.png");
+    background-size: cover;
+  }
+
+  .header__logo-container {
+    background-color: transparent;
+  }
+
+  .header__logo-img {
+    width: 250px;
+    margin-left: 1rem;
+  }
+
+  /* nav & link styling */
+
+  /* nav styling at <1050px */
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  nav a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: slategrey;
+  }
+  
+  .nav__list {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .nav__list-link {
+    display: inline-block;
+  }
+  
+  
