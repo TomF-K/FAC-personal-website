@@ -21,6 +21,10 @@ main {
     margin: 0.5rem;
 }
 
+.btn > a {
+    color: var(--text-color-tertiary);
+}
+
 .main__button-colored {
     background: var(--gradient-primary);
     color: var(--text-color-tertiary);
@@ -28,7 +32,6 @@ main {
 
 .main__button-white {
     background-color: var(--color-primary);
-    color: var(--gradient-primary);
     border: 2px solid var(--color-secondary);
 }
 
