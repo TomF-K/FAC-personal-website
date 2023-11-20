@@ -54,9 +54,11 @@ main {
 figure {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin: 0;
     padding: 0;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.35); 
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.35);
 }
 
 figure img {
@@ -66,13 +68,20 @@ figure img {
     grid-row: 1/4;
 }
 
+figure a {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
 figcaption {
     grid-row: 3/4;
     grid-column: 1/2;
     background-color: #001219;
-    opacity: 0.7;
+    opacity: 0.6;
     color: var(--text-color-tertiary);
     padding: 0.5rem;
+    cursor: pointer;
+    pointer-events: none;
 }
 
 figcaption * {
