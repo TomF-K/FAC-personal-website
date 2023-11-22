@@ -91,7 +91,7 @@ figcaption * {
     margin: 0.5rem;
 }
 
-/* Testimonials styling*/
+/* Testimonials styling */
 
 .testimonials {
     margin: 6rem 2rem;
@@ -137,9 +137,11 @@ figcaption * {
 }
 
 #student-img {
-    width: 100%;
-    object-fit: cover;
+    object-fit: fill;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 #testimonials__author {
