@@ -6,14 +6,14 @@ const students = [
         author: 'Stew B.',
         location: 'Somerset, UK',
         img: 'imgs/student_imgs/SB_profile.jpg',
-        text: "I came to Tom as a bass player with many years of experience across many genres and at many levels. In other words, I had decades of bad habits and inadequate knowledge ingrained in me. You'd never have imagined what an uphill task he faced in attempting to undo all this, because his manner was always cheerful, open and friendly. Tom understands what makes me tick as a person and communicates with such precision, humility and skill that he makes the learning fun and the progression seamless.",
+        text: "I came to Tom as a bass player with many years of experience across many genres and at many levels. In other words, I had decades of bad habits and inadequate knowledge ingrained in me. Tom understands what makes me tick as a person and communicates with such precision, humility and skill that he makes the learning fun and the progression seamless.",
     },
     {
         id: 2,
         author: 'Erik P.',
         location: 'Someplace, MA',
         img: 'imgs/student_imgs/Erik_P.png',
-        text: "Tom is a consummate professional who has developed a mastery of the instrument. His attention to the subtleties of playing have resulted in a high level of musicianship while his personality and humor keep things light and positive. Despite having played for almost 15 years, my lessons with Tom provided me with new ways of approaching the instrument that I had yet to explore. This made each session enlightening, filled with “ah-ha” moments and left me energized for days afterwards.",
+        text: "Tom is a consummate professional who has developed a mastery of the instrument. Despite having played for almost 15 years, my lessons with Tom provided me with new ways of approaching the instrument that I had yet to explore. This made each session enlightening, filled with “ah-ha” moments and left me energized for days afterwards.",
 
     },
     {
@@ -29,7 +29,7 @@ const students = [
         author: 'Jim D.',
         location: 'Worcestershire, UK',
         img: 'imgs/student_imgs/Jim_D.png',
-        text: "Tom is extremely patient, flexible, and understanding of my other commitments. In lessons I can see he is very focused on making the best use of our time.  One of the qualities I most value from him is that he is careful to point out my mistakes and give me the guidance I need but is always motivating and positive about it, I always leave the lessons feeling energised and encouraged, never demotivated.",
+        text: "Tom is extremely patient, flexible, and understanding of my other commitments. In lessons I can see he is very focused on making the best use of our time. One of the qualities I most value from him is that he is careful to point out my mistakes and give me the guidance I need but is always motivating and positive about it, I always leave the lessons feeling energised and encouraged, never demotivated.",
 
     },
     {

@@ -111,11 +111,12 @@ figcaption * {
 
 .prev-btn,
 .next-btn {
-    background: var(--gradient-primary);
+    background: var(--text-color-location);
     color: var(--text-color-tertiary);
     padding: 0.5rem 3rem;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .prev-btn:hover,
@@ -130,25 +131,35 @@ figcaption * {
 
 .testimonials__img-container {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     filter: drop-shadow(8px 8px 15px rgba(101, 100, 100, 0.8));
 }
 
 #student-img {
     object-fit: fill;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 #testimonials__author {
     flex-basis: 100%;
+    margin-bottom: 0;
+    
 }
 #testimonials__location {
     flex-basis: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    color: var(--text-color-location);
+}
+
+#testimonials__text {
+    padding: 0.5rem 2rem;
 }
 
 /* MUSIC GRID IMG STYLING */

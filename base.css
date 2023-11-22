@@ -23,6 +23,7 @@ body {
     --text-color-primary: #272727;
     --text-color-secondary: #370CAD;
     --text-color-tertiary: #ffffff;
+    --text-color-location: #1f7fc3;
     --gradient-primary: linear-gradient(to top right, #370CAD 0%, #13BCCF 100%);
 }
 
