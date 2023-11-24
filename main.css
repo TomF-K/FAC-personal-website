@@ -15,6 +15,11 @@ main {
     text-align: center;
 }
 
+.personal__blurb {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* button styling */
 
 .btn {
@@ -98,8 +103,28 @@ figcaption * {
 
 /* Testimonials styling */
 
-.testimonials {
+.testimonials__main {
     margin: 6rem 2rem;
+}
+
+.testimonials__blurb {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.testimonials__blurb a {
+    color: var(--text-color-location);
+}
+.testimonials__blurb iframe {
+    box-shadow: 5px 5px 10px rgba(101, 100, 100, 0.6);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.testimonials__blurb p {
+    width: 70%;
+    padding: 
 }
 
 .testimonials__container {
