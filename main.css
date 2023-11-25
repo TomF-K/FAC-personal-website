@@ -124,7 +124,7 @@ figcaption * {
 
 .testimonials__blurb p {
     width: 70%;
-    padding: 
+   /* padding: */
 }
 
 .testimonials__container {
@@ -196,31 +196,36 @@ figcaption * {
 
 .music__grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    gap: 0px;
-    margin: 1rem 2rem;
+    gap: 10px;
+    margin: 2rem;
 }
 
 .music__grid-img {
-    object-fit: cover;
+    object-fit: contain;
+    max-width: 500px;
+}
+
+.music__grid-img img, .youtube, .square {
+    width: 100%;
+}
+
+.landscape, .youtube {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.centered {
+    justify-self: center;
 }
 
 .portrait {
-    width: 200px;
-    height: 400px;
-}
-
-.landscape {
-    width: 400px;
-    height: 200px;
-}
-
-.youtube {
-    grid-column: span 2;
+    grid-row: span 2;
+    grid-column: span 1;
 }
 
 .square {
-    width: 200px;
-    height: 200px;
+    grid-column: span 1;
+    grid-row: span 1;
 }
