@@ -77,6 +77,15 @@ a {
     color: black;
 }
 
+.show__links {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
 .btn {
     font-family: var(--font-primary);
     font-size: 1.5rem;
@@ -133,19 +142,10 @@ footer [class*="fa-"] {
         display: none;
     }
 
-    .show__links {
-        display: flex;
-        flex-flow: row nowrap;
-        height: 5rem;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 0;
-    }
-
    .links { 
         height: 0;
         overflow: hidden;
-    } */
+    } 
 
 
 }

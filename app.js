@@ -1,3 +1,14 @@
+//nav toggle 
+
+const navToggle = document.querySelector(".nav__toggle");
+const navLinks = document.querySelector(".links");
+
+navToggle.addEventListener("click", function () {
+  navLinks.classList.toggle("links");
+  navLinks.classList.toggle("show__links");
+});
+
+
 // testimonials data
 
 const students = [
