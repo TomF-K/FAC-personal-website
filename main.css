@@ -188,37 +188,41 @@ figcaption * {
 /* MUSIC GRID IMG STYLING */
 
 .music__grid-wrapper {
+    width: 70%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 10px;
-    margin: 2rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .music__grid-img {
-    object-fit: contain;
-    max-width: 500px;
+  /* border: 5px solid red; */
 }
 
-.music__grid-img img, .youtube, .square {
+.music__grid-img img {
+    height: 100%;
     width: 100%;
+    max-width: 400px;
+    min-width: 300px;
 }
 
-.landscape, .youtube {
-    grid-column: span 2;
-    grid-row: span 1;
+@media (max-width: 1300px) {
+    .music__grid-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
 }
 
-.centered {
-    justify-self: center;
-}
+@media (min-width: 1301px) {
+    .music__grid-wrapper {
+         grid-template-columns: repeat(2, 1fr);
+        }
 
-.portrait {
-    grid-row: span 2;
-    grid-column: span 1;
-}
-
-.square {
-    grid-column: span 1;
-    grid-row: span 1;
+    }
+@media (min-width: 1600px) {
+    .music__grid-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+            }
 }
