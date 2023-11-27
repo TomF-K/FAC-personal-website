@@ -187,6 +187,13 @@ figcaption * {
 
 /* MUSIC GRID IMG STYLING */
 
+.music__info-blurb {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+
 .music__grid-wrapper {
     width: 70%;
     display: grid;
@@ -204,7 +211,7 @@ figcaption * {
 .music__grid-img img {
     height: 100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     min-width: 300px;
 }
 
