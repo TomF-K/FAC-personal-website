@@ -137,9 +137,9 @@ footer [class*="fa-"] {
 
     .nav__toggle:hover {
         background: #370CAD;
-background: var(--gradient-primary);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .nav__logo {

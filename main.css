@@ -1,12 +1,5 @@
 @import "./base.css";
 
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .logo__img-full {
     max-width: 200px;
 }
