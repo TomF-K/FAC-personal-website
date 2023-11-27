@@ -52,6 +52,14 @@ background: var(--gradient-primary);
 
 
 /* header/nav styling */
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .nav__toggle {
     display: none;
 }
@@ -113,9 +121,31 @@ footer [class*="fa-"] {
 @media (max-width: 700px) {
     .nav__toggle {
         display: block;
-        font-size: 1.5rem;
+        font-size: 3rem;
         background: transparent;
         border: none;
         cursor: pointer; 
+        margin: 0 auto;
+        padding-top: 2rem;
     }
+
+    .nav__logo {
+        display: none;
+    }
+
+    .show__links {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 5rem;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+   .links { 
+        height: 0;
+        overflow: hidden;
+    } */
+
+
 }
