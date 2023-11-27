@@ -44,10 +44,11 @@ main {
 
 .projects__wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     column-gap: 30px;
     padding: 2rem;
+    margin: 0 auto;
 }
 
 /* Figcaption styling */
@@ -55,15 +56,14 @@ main {
 figure {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     margin: 0;
     padding: 0;
     -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.35); 
     box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.35);
 }
 
-figure img {
-    /* height: 100%; */
+figure img { 
     width: 100%;
     min-width: 300px;
     grid-column: 1/2;
@@ -93,6 +93,10 @@ figcaption > p {
 
 figcaption * {
     margin: 0.5rem;
+}
+
+figure:hover {
+    transform: scale(1.025);
 }
 
 /* Testimonials styling */
@@ -218,6 +222,15 @@ figcaption * {
     min-width: 300px;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px) {
+    .projects__wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+}
+
 @media (max-width: 1300px) {
     .music__grid-wrapper {
         grid-template-columns: 1fr;
@@ -226,9 +239,6 @@ figcaption * {
 }
 
 @media (min-width: 1301px) {
-    figure {
-        grid-template-columns: 1fr;
-    }
     .music__grid-wrapper {
          grid-template-columns: repeat(2, 1fr);
         }
