@@ -53,6 +53,10 @@ background: var(--gradient-primary);
 
 /* header/nav styling */
 
+header {
+    margin-top: 2rem;
+}
+
 nav ul {
     display: flex;
     flex-flow: row nowrap;
@@ -77,14 +81,7 @@ a {
     color: black;
 }
 
-.show__links {
-    display: flex;
-    flex-flow: row nowrap;
-    height: 5rem;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0;
-}
+
 
 .btn {
     font-family: var(--font-primary);
@@ -138,6 +135,13 @@ footer [class*="fa-"] {
         padding-top: 2rem;
     }
 
+    .nav__toggle:hover {
+        background: #370CAD;
+background: var(--gradient-primary);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
     .nav__logo {
         display: none;
     }
@@ -146,6 +150,18 @@ footer [class*="fa-"] {
         height: 0;
         overflow: hidden;
     } 
+
+    .show__links {
+        display: flex;
+        flex-flow: column wrap;
+        height: 10rem;
+        margin-top: 2rem;
+        padding-right: 2rem;
+    }
+
+    .show__links a:hover {
+        color: var(--text-color-location);
+    }
 
 
 }
