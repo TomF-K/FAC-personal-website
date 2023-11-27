@@ -211,10 +211,6 @@ figure:hover {
     margin-bottom: 2rem;
 }
 
-.music__grid-img {
-  /* border: 5px solid red; */
-}
-
 .music__grid-img img {
     height: 100%;
     width: 100%;
