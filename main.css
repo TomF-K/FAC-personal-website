@@ -156,17 +156,19 @@ figcaption * {
     border-radius: 50%;
     width: 180px;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
     filter: drop-shadow(8px 8px 15px rgba(101, 100, 100, 0.8));
 }
 
 #student-img {
-    object-fit: fill;
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
 }
+
+
 
 #testimonials__author {
     flex-basis: 100%;

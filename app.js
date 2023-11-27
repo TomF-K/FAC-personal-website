@@ -22,7 +22,7 @@ const students = [
     {
         id: 2,
         author: 'Erik P.',
-        location: 'Someplace, MA',
+        location: 'Sunderland, MA',
         img: 'imgs/student_imgs/Erik_P.png',
         text: "Tom is a consummate professional who has developed a mastery of the instrument. Despite having played for almost 15 years, my lessons with Tom provided me with new ways of approaching the instrument that I had yet to explore. This made each session enlightening, filled with “ah-ha” moments and left me energized for days afterwards.",
 
@@ -48,7 +48,7 @@ const students = [
         author: 'Dave D-R.',
         location: 'Athens, Greece',
         img: 'imgs/student_imgs/Dave_D-R.png',
-        text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+        text: "We've been working together for a year and I'm really happy with all the progress in all areas of development from harmony to technique. If I think back to a year ago, it's a completely different ballgame.",
 
     },
 ];
