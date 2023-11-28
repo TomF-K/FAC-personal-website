@@ -95,6 +95,16 @@ a {
     opacity: 0.7;
 }
 
+/* Main page link styles */
+
+main a {
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: var(--text-color-location);
+}
+
 /* Footer styling */
 
 footer {

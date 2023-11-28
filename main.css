@@ -21,6 +21,11 @@ main {
 
 .btn > a {
     color: var(--text-color-tertiary);
+    text-decoration: none;
+}
+
+.btn > a:hover {
+    color: var(--text-color-tertiary);
 }
 
 .main__button-colored {
@@ -111,9 +116,6 @@ figure:hover {
     flex-flow: row wrap;
 }
 
-.testimonials__blurb a {
-    color: var(--text-color-location);
-}
 .testimonials__blurb iframe {
     box-shadow: 5px 5px 10px rgba(101, 100, 100, 0.6);
     border-radius: 10px;
