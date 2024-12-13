@@ -1,16 +1,8 @@
 @import "./base.css";
 
-.logo__img-full {
-    max-width: 200px;
-}
 
 main {
     text-align: center;
-}
-
-.personal__blurb {
-    width: 60%;
-    margin: 0 auto;
 }
 
 /* button styling */
@@ -58,17 +50,17 @@ main {
 
 /* Figcaption styling */
 
-figure {
+.project {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    margin: 0;
+    margin-bottom: 1rem;
     padding: 0;
     -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.35); 
     box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.35);
 }
 
-figure img { 
+.project img { 
     width: 100%;
     min-width: 300px;
     grid-column: 1/2;
@@ -76,12 +68,12 @@ figure img {
     object-fit: fill;
 }
 
-figure a {
+.project a {
     grid-column: 1/2;
     grid-row: 1/4;
 }
 
-figcaption {
+.project-info {
     grid-row: 3/4;
     grid-column: 1/2;
     background-color: #001219;
@@ -92,11 +84,11 @@ figcaption {
     pointer-events: none;
 }
 
-figcaption > p {
+.project-info > p {
     font-weight: lighter;
 }
 
-figcaption * {
+.project-info * {
     margin: 0.5rem;
 }
 
@@ -124,7 +116,6 @@ figure:hover {
 
 .testimonials__blurb p {
     width: 70%;
-   /* padding: */
 }
 
 .testimonials__container {

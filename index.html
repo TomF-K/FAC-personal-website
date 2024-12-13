@@ -13,51 +13,72 @@
     <header>
         <button class="nav__toggle"><i class="fas fa-bars"></i></button>
         <nav>
-            <ul class="links">
+            <div class="title-container">
+                <h1>Tom Forman-Kenrick</h1>
+            </div>
+            <ul class="nav-links">
             <li class="nav__link"><a href="#projects">Projects</a></li>
-            <li class="nav__link"><a href="./music.html">Music</a></li>
-            <li class="nav__logo"><img src="./imgs/TFK_logo_icon.png" class="logo__img-full" alt="Website logo. Click to return to the homepage." /></li>
-            <li class="nav__link"><a href="./education.html">Education</a></li>
+            <li class="nav__link"><a href="./education.html">Music Education</a></li>
             <li class="nav__link"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- hero main section -->
     <main>
-        <h1>Tom Forman-Kenrick</h1>
-        <h3>Frontend Developer</h3>
-        <section class="personal__blurb">
-            <p>I'm Tom, a frontend developer creating responsive, accessible sites using HTML, CSS and JavaScript/React.</p>
-            <p>Over the past two years I've been working through courses including Harvard's CS50, <a href="https://frontendmasters.com/u/TF_K/" target="_blank">Frontend Masters</a>, and The Odin Project to improve my frontend development skills. This site showcases some of what I've learned about responsive design, you can view the Github repo <a href="https://github.com/TomF-K/FAC-personal-website" target="_blank">here.</a> </p>
-            <button class="btn main__button-colored"><a href="#contact">Connect</a></button>
+        <section class="bio">
+            <h2 class="bio-greeting">Hi! I'm Tom.</h2>
+            <p>I'm a frontend developer who loves to create accesible, responsive products.</p>
+            <div class="tech-icon-container">
+                <figure class="tech-icon">
+                    <img src="./imgs/tech_icons/html_logo.6aa56206be02cf6404844871df1d2da6.png" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="tech-icon">
+                    <img src="./imgs/tech_icons/css_logo.svg" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="tech-icon">
+                    <img src="./imgs/tech_icons/js_logo.f8a28e905c78dadb79434b7ceebd52a0.png" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="tech-icon">
+                    <img src="./imgs/tech_icons/react_logo.cb15bfce2a9004ce61c5f79f805b067b.png" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="tech-icon">
+                    <img src="./imgs/tech_icons/git_logo.3092b5991e8accb9e7c36817c048a8d5.png" />
+                    <figcaption></figcaption>
+                </figure>
+            </div>
         </section>
+        <button class="btn main__button-colored"><a href="#contact">Connect</a></button>
         <!-- projects grid section -->
         <section class="projects">
             <h2>Sample Projects</h2>
             <div class="projects__wrapper" id="projects">
-            <figure>
+            <figure class="project">
                 <a href="https://tomf-k.github.io/react-whats_for_dinner">
                 <img src="./imgs/whats_for_dinner_screenshot.png" alt="What's for dinner recipe app" />
                 </a>
-                <figcaption>
+                <figcaption class="project-info">
                     <h2>What's for Dinner?</h2>
                     <p>React/Vite API fetch project</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="project">
                 <a href="Projects/FBT/index_FBT.html">
                 <img src="./imgs/Randomkey_preview.png" alt="random key generator for music practice" />
             </a>
-                <figcaption>
+                <figcaption class="project-info">
                     <h2>The Random Key Generator</h2>
                     <p>Music practice tools</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="project">
                 <a href="Projects/Leaving Card/leavingcard_index.html">
                     <img src="imgs/leavingcard_preview.png" alt="greeting card photo gallery" />
                 </a>
-                <figcaption>
+                <figcaption class="project-info">
                     <h2>Leaving Card</h2>
                     <p>Responsive grid gallery</p>
                 </figcaption>

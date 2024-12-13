@@ -36,11 +36,6 @@ li {
     font-family: var(--font-primary);
 }
 
-h1 {
-    padding-top: 2rem;
-    text-align: center;
-}
-
 /* text gradient for headings */
 
 h1 {
@@ -57,11 +52,22 @@ header {
     margin-top: 2rem;
 }
 
-nav ul {
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container {
+    margin: 2rem 4rem;
+}
+
+.nav-links {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    margin-right: 2rem;
 }
 
 .nav__toggle {
@@ -74,6 +80,7 @@ ul {
 
 li {
     display: inline;
+    margin-right: 2rem;
 }
 
 a {
@@ -103,6 +110,27 @@ main a {
 
 main a:hover {
     color: var(--text-color-location);
+}
+
+.bio {
+    text-align: left;
+    margin: 2rem 4rem;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.tech-icon-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.tech-icon img {
+    max-width: 100px;
 }
 
 /* Footer styling */
